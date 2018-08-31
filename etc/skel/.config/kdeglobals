@@ -3,7 +3,7 @@ XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
 shadeSortColumn=true
-widgetStyle=Breeze
+widgetStyle=Heritage
 
 [Icons]
 Theme=Halo
