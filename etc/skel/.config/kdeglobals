@@ -3,7 +3,7 @@ XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
 shadeSortColumn=true
-widgetStyle=Heritage
+widgetStyle=heritage
 
 [Icons]
 Theme=Halo
@@ -17,4 +17,4 @@ StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 contrast=4
-widgetStyle=breeze
+widgetStyle=heritage
