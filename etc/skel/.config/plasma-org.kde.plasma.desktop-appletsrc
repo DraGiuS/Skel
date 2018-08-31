@@ -44,7 +44,7 @@ ToolBoxButtonX=1904
 showToolbox=false
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wall.jpg
+Image=file:///home/wall.jpg
 
 [Containments][2]
 activityId=
