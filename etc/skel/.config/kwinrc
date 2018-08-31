@@ -123,6 +123,4 @@ BorderSize=Large
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite
-
+library=org.kde.sierrabreeze
