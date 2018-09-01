@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=conky
+Exec=conky -c ~/.config/conky/Elegance-Beam/conky/elegance-beam-afternoon.conkyrc --daemonize --pause=10
+StartupNotify=false
+Terminal=false
