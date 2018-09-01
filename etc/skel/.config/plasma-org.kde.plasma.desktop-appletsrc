@@ -43,7 +43,7 @@ ToolBoxButtonState=topright
 ToolBoxButtonX=1904
 showToolbox=false
 
-[Containments][1][Wallpaper][org.kde.image][General]
+[Containments][15][Wallpaper][org.kde.image][General]
 Image=file:///home/wall.jpg
 
 [Containments][2]
