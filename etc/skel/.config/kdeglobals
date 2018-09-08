@@ -9,7 +9,7 @@ widgetStyle=heritage
 Theme=HALODARK
 
 [KDE]
-ColorScheme=Breeze
+#ColorScheme=Breeze
 DoubleClickInterval=400
 ShowDeleteCommand=false
 SingleClick=false
