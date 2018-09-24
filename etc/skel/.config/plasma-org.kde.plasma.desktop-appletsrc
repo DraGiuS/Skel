@@ -76,7 +76,7 @@ immutability=1
 plugin=umenu
 
 [Containments][2][Applets][18][Configuration]
-PreloadWeight=83
+PreloadWeight=88
 
 [Containments][2][Applets][18][Configuration][ConfigDialog]
 DialogHeight=540
@@ -117,6 +117,7 @@ DialogWidth=720
 
 [Containments][2][Applets][21][Configuration][General]
 favoritesPortedToKAstats=true
+lowBatteryPercent=15
 
 [Containments][2][Applets][23]
 immutability=1
@@ -130,18 +131,40 @@ showSeconds=true
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][24]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
 [Containments][2][Applets][24][Configuration][General]
 length=199
+
+[Containments][2][Applets][25][Configuration][General]
+length=975
+
+[Containments][2][Applets][26][Configuration][General]
+length=722
+
+[Containments][2][Applets][27][Configuration][General]
+length=93
+
+[Containments][2][Applets][28][Configuration][General]
+length=616
+
+[Containments][2][Applets][29][Configuration][General]
+length=845
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 icon=start-here
 menuItems=bookmark:t,application:t,leave:t,oftenUsed:f,computer:f,used:f
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
+
+[Containments][2][Applets][30][Configuration][General]
+length=357
+
+[Containments][2][Applets][31]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][31][Configuration][General]
+expanding=false
+length=36
 
 [Containments][2][Applets][4]
 immutability=1
@@ -155,7 +178,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 SystrayContainmentId=7
 
 [Containments][2][Applets][8][Configuration][Appearance]
@@ -169,7 +192,7 @@ DialogWidth=1920
 PreloadWeight=10
 
 [Containments][2][General]
-AppletOrder=18;4;14;24;21;6;23;19
+AppletOrder=18;4;14;21;31;6;23;19
 
 [Containments][20]
 activityId=a5582ed8-757e-489e-9cda-b7e882ba5154
@@ -189,10 +212,10 @@ PreloadWeight=18
 
 [Containments][20][General]
 ToolBoxButtonState=top
-ToolBoxButtonX=1850
+ToolBoxButtonX=1806
 
 [Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///home/yosh/Téléchargements/wallhaven-698231.png
+Image=file://home/wallhaven-698231.png
 
 [Containments][7]
 activityId=
@@ -222,14 +245,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=20
+PreloadWeight=30
 
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=15
+PreloadWeight=20
 
 [Containments][7][Applets][16]
 immutability=1
@@ -251,6 +274,10 @@ plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
 PreloadWeight=30
+
+[Containments][7][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][7][Configuration]
 PreloadWeight=10
