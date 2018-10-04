@@ -123,4 +123,5 @@ BorderSize=Large
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.sierrabreeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__FreezeOrb
