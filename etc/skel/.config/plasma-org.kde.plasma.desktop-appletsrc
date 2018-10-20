@@ -227,10 +227,6 @@ PreloadWeight=0
 ToolBoxButtonState=top
 ToolBoxButtonX=1806
 
-[Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///home/wallhaven-597078.jpg 
-
-
 [Containments][32]
 activityId=bd1ad6df-70fb-4653-8eed-b08f39f2d95c
 formfactor=0
