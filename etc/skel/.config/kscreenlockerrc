@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+LockOnResume=false
+Timeout=35
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/wallhaven-614476.jpg
