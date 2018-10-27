@@ -109,7 +109,7 @@ ForegroundVisited=127,140,141
 
 [General]
 ColorScheme=Jomada-FitDark
-Name=Breeze
+Name=Jomada-Fitdark
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
@@ -118,7 +118,7 @@ shadeSortColumn=true
 widgetStyle=heritage
 
 [Icons]
-Theme=HALODARK
+Theme=TurkinOS
 
 [KDE]
 ColorScheme=Breeze
@@ -150,7 +150,7 @@ Sort directories first=true
 Sort reversed=false
 Speedbar Width=148
 View Style=Simple
-listViewIconSize=0
+listViewIconSize=72
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
