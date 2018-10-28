@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=conky
-Exec=conky -c ~/.config/conky/Elegance-Beam/conky/elegance-beam-noon.conkyrc --daemonize --pause=10
+Exec=sh -c 'conky -c ~/.config/conky/Elegance-Beam/conky/elegance-beam-noon.conkyrc --daemonize --pause=10 & latte-dock'
 StartupNotify=false
 Terminal=false
