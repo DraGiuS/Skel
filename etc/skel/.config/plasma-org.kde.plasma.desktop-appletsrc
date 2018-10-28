@@ -29,7 +29,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -46,10 +46,6 @@ DialogWidth=720
 
 [Containments][2][Applets][14][Configuration][General]
 launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
-middleClickAction=NewInstance
-showToolTips=false
-
-[Containments][2][Applets][14][Configuration][General]
 middleClickAction=NewInstance
 showToolTips=false
 
@@ -199,14 +195,14 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=4;53;14;21;31;38;23;52
+AppletOrder=53;4;14;21;31;38;23;52
 
 [Containments][39]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -277,7 +273,7 @@ plugin=org.kde.plasma.bluetooth
 
 [Containments][39][Applets][55]
 immutability=1
-plugin=org.kde.plasma.mediacontroller
+plugin=org.kde.plasma.keyboardindicator
 
 [Containments][39][Applets][55][Configuration]
 PreloadWeight=0
@@ -287,11 +283,11 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][39][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
 
-[Containments][40]
-activityId=d3169449-dfb4-4438-95d0-f72fd52513ad
+[Containments][54]
+activityId=ad29eca7-5a5a-4aa2-80fb-6f7ab27b0cb0
 formfactor=0
 immutability=1
 lastScreen=0
@@ -299,16 +295,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][40][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][54][ConfigDialog]
+DialogHeight=420
+DialogWidth=560
 
-[Containments][40][General]
-ToolBoxButtonState=top
-ToolBoxButtonX=1763
-ToolBoxButtonY=4
-
-[Containments][40][Wallpaper][org.kde.image][General]
+[Containments][54][Wallpaper][org.kde.image][General]
 Image=file:///home/wall.jpg
 
 [Containments][7][General]
