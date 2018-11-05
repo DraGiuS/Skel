@@ -75,20 +75,19 @@ done
 print_message "Starting Package Installation\n"
 for ext in ${extension_all}
 do
-if ! code --install-extension "${ext}" ; then
+if ! vscodium --install-extension "${ext}" ; then
 print_error "Errrors while installing extensions\n"
 exit 1
 fi
 done
 
 print_message "Installation Done\n"
-code --list-extensions
-code . # open editor so that it creates a setting file, then we can overwite it
+vscodium --list-extensions
+vscodium . # open editor so that it creates a setting file, then we can overwite it
 sleep 5
 
 # copy Visual Studdio Code setting file and keybinding file
-cp -vf VisualCode/settings.json /home/"$USER"/.config/'Code - OSS'/User/settings.json
+cp -vf VisualCode/settings.json /home/"$USER"/.config/VSCodium/User/settings.json
 
 print_message "Visual Studio Code Configurations done\n"
 exit 0
-
