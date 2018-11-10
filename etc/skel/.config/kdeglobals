@@ -108,8 +108,8 @@ ForegroundPositive=31,140,236
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Jomada-FitDark
-Name=Jomada-Fitdark
+ColorScheme=OneDark
+Name=Arc Dark
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
