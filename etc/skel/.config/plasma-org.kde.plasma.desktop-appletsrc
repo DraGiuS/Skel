@@ -45,7 +45,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][14][Configuration][General]
-launchers=applications:org.kde.konsole.desktop,applications:org.kde.index.desktop,applications:blender-2.8.desktop  
+launchers=applications:org.kde.konsole.desktop,applications:org.kde.index.desktop,applications:vivaldi-stable.desktop,applications:blender-2.8.desktop  
 middleClickAction=NewInstance
 showToolTips=false
 
