@@ -4,6 +4,18 @@ kpackagetool5 -t Plasma/Wallpaper -i VideoWallpaper.tar.gz
 git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
-cd ..
-bash ./vscode_setup.sh
+cd /home/"$USER"/
+git clone https://github.com/maui-project/index --recursive #Install index instead of dolphin
+cd index
+mkdir build
+cd build
+qmake ..
+make -j$(nproc)
+sudo make install
+cd /home/"$USER"/
+git clone https://aur.archlinux.org/firefox-wayland-hg.git
+cd firefox-wayland-hg
+makepkg -srci
+cd /home/"$USER"/skel/
+bash ./vscode_setup.sh # Install vscode configs
 
