@@ -13,6 +13,10 @@ qmake ..
 make -j$(nproc)
 sudo make install
 cd /home/"$USER"/
+git clone https://github.com/psifidotos/applet-window-title/
+cd applet-window-title
+plasmapkg2 -i .
+cd /home/"$USER"/
 git clone https://aur.archlinux.org/firefox-wayland-hg.git
 cd firefox-wayland-hg
 makepkg -srci
