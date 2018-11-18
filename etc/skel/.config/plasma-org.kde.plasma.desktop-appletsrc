@@ -153,22 +153,8 @@ DialogWidth=720
 showName=false
 showSett=true
 
-[Containments][2][Applets][53]
-immutability=1
-plugin=umenu
-
-[Containments][2][Applets][53][Configuration]
-PreloadWeight=97
-
-[Containments][2][Applets][53][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][2][Applets][53][Configuration][General]
 favoritesPortedToKAstats=true
-
-[Containments][2][Applets][53][Shortcuts]
-global=Meta+Return
 
 [Containments][2][Applets][54][Configuration][General]
 length=1363
@@ -194,6 +180,16 @@ plugin=org.kde.plasma.appmenu
 DialogHeight=540
 DialogWidth=720
 
+[Containments][2][Applets][61]
+immutability=1
+plugin=com.gitlab.jnuutinen.minimalmenu
+
+[Containments][2][Applets][61][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][61][Shortcuts]
+global=Meta+Return
+
 [Containments][2][Applets][8][Configuration][Appearance]
 showDate=true
 
@@ -205,7 +201,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=53;57;4;59;21;31;38;23;52
+AppletOrder=61;57;4;59;21;31;38;23;52
 
 [Containments][39]
 activityId=
@@ -308,7 +304,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][39][Applets][56][Configuration]
-PreloadWeight=42
+PreloadWeight=2
 
 [Containments][39][ConfigDialog]
 DialogHeight=540
@@ -341,10 +337,29 @@ PreloadWeight=42
 ToolBoxButtonState=right
 ToolBoxButtonX=1904
 ToolBoxButtonY=28
-#positions=3,17,desktop:/gog_com-The_Coma_Recut_1.desktop,2,1,desktop:/gog_com-Devil_Daggers_1.desktop,2,0,desktop:/gog_com-Yooka_Laylee_1.desktop,1,1,desktop:/gog_com-Teslagrad_1.desktop,1,0,desktop:/gog_com-SOMA_1.desktop,0,2,desktop:/gog_com-Overfall_1.desktop,0,1,desktop:/gog_com-Crypt_of_the_NecroDancer_1.desktop,0,0
 sortMode=-1
 
 [Containments][55][Wallpaper][org.kde.image][General]
+Image=file:///home/wallhaven-355344.png
+
+[Containments][60]
+activityId=ca2cffe3-a34a-49a7-89cf-e23a4d252304
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][60][ConfigDialog]
+DialogHeight=573
+DialogWidth=1050
+
+[Containments][60][General]
+ToolBoxButtonState=bottomleft
+ToolBoxButtonY=1048
+
+[Containments][60][Wallpaper][org.kde.image][General]
 Image=file:///home/wallhaven-355344.png
 
 [Containments][7][General]
@@ -356,4 +371,3 @@ immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-#screenMapping=desktop:/gog_com-Yooka_Laylee_1.desktop,0,desktop:/gog_com-SOMA_1.desktop,0,desktop:/gog_com-Overfall_1.desktop,0,desktop:/gog_com-Crypt_of_the_NecroDancer_1.desktop,0,desktop:/gog_com-Teslagrad_1.desktop,0,desktop:/gog_com-The_Coma_Recut_1.desktop,0,desktop:/Home.desktop,0,desktop:/trash.desktop,0,desktop:/gog_com-Devil_Daggers_1.desktop,0
