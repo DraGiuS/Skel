@@ -125,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=84
+PreloadWeight=99
 SystrayContainmentId=39
 
 [Containments][2][Applets][4]
@@ -143,7 +143,7 @@ immutability=1
 plugin=org.kde.plasma.uswitcher
 
 [Containments][2][Applets][52][Configuration]
-PreloadWeight=67
+PreloadWeight=72
 
 [Containments][2][Applets][52][Configuration][ConfigDialog]
 DialogHeight=540
@@ -184,6 +184,9 @@ DialogWidth=720
 immutability=1
 plugin=com.gitlab.jnuutinen.minimalmenu
 
+[Containments][2][Applets][61][Configuration]
+PreloadWeight=100
+
 [Containments][2][Applets][61][Configuration][General]
 favoritesPortedToKAstats=true
 
@@ -201,7 +204,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=61;57;4;59;21;31;38;23;52
+AppletOrder=61;4;57;59;21;31;38;23;52
 
 [Containments][39]
 activityId=
@@ -255,7 +258,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][39][Applets][45][Configuration]
-PreloadWeight=57
+PreloadWeight=67
 
 [Containments][39][Applets][46]
 immutability=1
@@ -304,7 +307,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][39][Applets][56][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][39][ConfigDialog]
 DialogHeight=540
@@ -316,31 +319,6 @@ PreloadWeight=34
 [Containments][39][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
-
-[Containments][55]
-activityId=2acc9bd4-36f1-48d7-888a-1d73a38da112
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][55][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][55][Configuration]
-PreloadWeight=42
-
-[Containments][55][General]
-ToolBoxButtonState=right
-ToolBoxButtonX=1904
-ToolBoxButtonY=28
-sortMode=-1
-
-[Containments][55][Wallpaper][org.kde.image][General]
-Image=file:///home/wallhaven-355344.png
 
 [Containments][60]
 activityId=ca2cffe3-a34a-49a7-89cf-e23a4d252304
@@ -360,7 +338,7 @@ ToolBoxButtonState=bottomleft
 ToolBoxButtonY=1048
 
 [Containments][60][Wallpaper][org.kde.image][General]
-Image=file:///home/wallhaven-355344.png
+Image=file:///home/wall.jpg
 
 [Containments][7][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
