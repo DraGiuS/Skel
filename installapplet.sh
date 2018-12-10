@@ -6,10 +6,10 @@ kpackagetool5 -t Plasma/Applet --install .
 cd /home/"$USER"/
 sudo git clone https://gitlab.com/jnuutinen/minimal-menu
 cd minimal-menu
-mkdir build
+sudo mkdir build
 cd build
-cmake ..
-make install
+sudo cmake ..
+sudo make install
 cd /home/"$USER"/
 git clone https://github.com/maui-project/index --recursive #Install index instead of dolphin
 cd index
