@@ -34,7 +34,6 @@ plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][14][Configuration][General]
-launchers=applications:org.kde.konsole.desktop,applications:org.kde.kdenlive.desktop,applications:org.kde.index.desktop,applications:vivaldi-stable.desktop
 middleClickAction=NewInstance
 showToolTips=false
 
