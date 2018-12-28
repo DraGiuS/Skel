@@ -108,8 +108,8 @@ ForegroundPositive=31,140,236
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Neptune
-Name=Arc Dark
+ColorScheme=Neptune-Pink
+Name=Neptune-Pink
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
@@ -121,7 +121,7 @@ widgetStyle=heritage
 Theme=TurkinOS
 
 [KDE]
-ColorScheme=Breeze
+ColorScheme=Neptune-Pink
 DoubleClickInterval=400
 ShowDeleteCommand=false
 ShowIconsInMenuItems=true
