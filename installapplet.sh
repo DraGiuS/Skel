@@ -10,6 +10,9 @@ sudo mkdir build
 cd build
 sudo cmake ..
 sudo make install
+sudo git clone https://github.com/jsalatas/plasma-pstate
+cd plasma-pstate
+sudo ./install.sh
 cd /home/"$USER"/
 git clone https://github.com/maui-project/index --recursive #Install index instead of dolphin
 cd index
