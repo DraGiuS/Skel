@@ -13,14 +13,6 @@ sudo git clone https://github.com/jsalatas/plasma-pstate
 cd plasma-pstate
 sudo ./install.sh
 cd /home/"$USER"/
-git clone https://github.com/maui-project/index --recursive #Install index instead of dolphin
-cd index
-mkdir build
-cd build
-qmake ..
-make -j$(nproc)
-sudo make install
-cd /home/"$USER"/
 git clone https://github.com/psifidotos/applet-window-title/
 cd applet-window-title
 plasmapkg2 -i .
