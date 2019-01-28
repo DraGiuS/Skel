@@ -14,6 +14,7 @@ sudo mkdir build
 cd build
 sudo cmake ..
 sudo make install
+cd /home/"$USER"/
 sudo git clone https://github.com/jsalatas/plasma-pstate
 cd plasma-pstate
 sudo ./install.sh
