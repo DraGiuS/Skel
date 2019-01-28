@@ -3,6 +3,11 @@ sudo git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
 cd /home/"$USER"/
+sudo git clone https://github.com/yagomont/material-decoration-bt.git
+cd material-decoration-bt/build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+sudo make -j$(nproc) install
+cd /home/"$USER"/
 sudo git clone https://gitlab.com/jnuutinen/minimal-menu
 cd minimal-menu
 sudo mkdir build
