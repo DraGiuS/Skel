@@ -6,8 +6,8 @@ cd /home/"$USER"/
 sudo git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 cd /home/"$USER"/
-sudo git clone https://gitlab.com/jnuutinen/minimal-menu
-cd minimal-menu
+sudo git clone https://github.com/JNuutinen/plasma-minimalmenu
+cd plasma-minimalmenu
 sudo mkdir build
 cd build
 sudo cmake ..
