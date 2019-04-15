@@ -119,9 +119,9 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=Normal
+BorderSize=None
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
-library=com.github.zzag.material
-theme=
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Formvolvere
