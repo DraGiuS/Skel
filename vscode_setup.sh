@@ -6,7 +6,7 @@
 
 # essential extensions that will always be installed
 extension_general="ms-vscode.cpptools  kevinkyang.auto-comment-blocks CoenraadS.bracket-pair-colorizer formulahendry.code-runner \
-msjsdiag.debugger-for-chrome eamodio.gitlens donjayamanne.githistory huizhou.githd robertohuertasm.vscode-icons webfreak.debug  \
+msjsdiag.debugger-for-chrome eamodio.gitlens donjayamanne.githistory huizhou.githd webfreak.debug  \
 wayou.vscode-todo-highlight emilast.logfilehighlighter Tyriar.sort-lines Gimly81.matlab \
 PeterJausovec.vscode-docker timonwong.shellcheck tomoki1207.pdf oderwat.indent-rainbow rashwell.tcl \
 vector-of-bool.cmake-tools twxs.cmake eugenwiens.bitbake redhat.vscode-yaml "
