@@ -1,6 +1,7 @@
 [Conky] Spoclo
 ===========
-![Spoclo preview](http://i.imgur.com/pDZHVAL.png "Spoclo_top Preview (/spotify-bottom/spoclo_rightedge.conky)")
+
+<img src=https://raw.githubusercontent.com/DraGiuS/arch_installer/master/screenshot.png width="960"/>
 
 Spoclo is Conky theme. It shows current date&time and currently playing song on spotify if running.
 Based on:
