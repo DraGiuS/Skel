@@ -3,6 +3,10 @@ sudo git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
 cd /home/"$USER"/
+sudo git clone https://github.com/psifidotos/latte-indicator-dashtopanel/
+cd latte-indicator-dashtopanel
+kpackagetool5 -i . -t Latte/Indicator
+cd /home/"$USER"/
 sudo git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 cd /home/"$USER"/
