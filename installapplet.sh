@@ -10,12 +10,9 @@ cd /home/"$USER"/
 sudo git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 cd /home/"$USER"/
-sudo git clone https://github.com/JNuutinen/plasma-minimalmenu
-cd plasma-minimalmenu
-sudo mkdir build
-cd build
-sudo cmake ..
-sudo make install
+sudo git clone https://github.com/zren/plasma-applet-tiledmenu
+cd plasma-applet-tiledmenu
+kpackagetool5 -t Plasma/Applet -i package
 cd /home/"$USER"/
 sudo git clone https://github.com/jsalatas/plasma-pstate
 cd plasma-pstate
