@@ -6,8 +6,8 @@ cd /home/"$USER"/
 sudo git clone https://github.com/wsdfhjxc/virtual-desktop-bar
 sudo mkdir build
 cd build
-cmake ..
-make 
+sudo cmake ..
+sudo make 
 sudo make install
 cd /home/"$USER"/
 sudo git clone https://github.com/psifidotos/latte-indicator-dashtopanel/
