@@ -4,7 +4,7 @@ cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
 cd /home/"$USER"/
 sudo git clone https://github.com/wsdfhjxc/virtual-desktop-bar
-mkdir build
+sudo mkdir build
 cd build
 cmake ..
 make 
