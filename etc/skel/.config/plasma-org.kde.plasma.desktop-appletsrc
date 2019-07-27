@@ -260,7 +260,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=71;75;57;59;63;21;31;38;65;23;64
+AppletOrder=71;75;57;59;63;21;31;38;82;65;23;64
 
 [Containments][39]
 activityId=
