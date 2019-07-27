@@ -228,6 +228,10 @@ tileModel=W3sieCI6MCwieSI6MCwidyI6NiwiaCI6MSwidXJsIjoiIiwidGlsZVR5cGUiOiJncm91cC
 [Containments][2][Applets][71][Shortcuts]
 global=Meta+Return
 
+[Containments][2][Applets][82]
+immutability=1
+plugin=org.kde.redshiftControl
+
 [Containments][2][Applets][75]
 immutability=1
 plugin=org.kde.plasma.virtualdesktopbar
