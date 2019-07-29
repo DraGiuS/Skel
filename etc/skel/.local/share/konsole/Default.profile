@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=ArcDark
+ColorScheme=nord
 [General]
 Name=Default
 Parent=FALLBACK/
