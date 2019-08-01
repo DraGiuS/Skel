@@ -136,5 +136,6 @@ BorderSize=None
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
+ShowToolTips=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Sweet-Dark-transparent
+theme=__aurorae__svg__dot
