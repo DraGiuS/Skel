@@ -15,6 +15,11 @@ sudo git clone https://github.com/psifidotos/latte-indicator-dashtopanel/
 cd latte-indicator-dashtopanel
 kpackagetool5 -i . -t Latte/Indicator
 cd /root/arch_installer/
+sudo git clone https://github.com/marioortizmanero/spotify-music-videos
+cd spotify-music-videos
+sudo python ./setup.py install
+python ./setup.py install --user
+cd /root/arch_installer/
 sudo git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 cd /root/arch_installer/
