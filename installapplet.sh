@@ -1,4 +1,4 @@
-plasmapkg2 -i uswitch-v1-2-1.plasmoid
+plasmapkg2 -i uswitch-v1-2-2.plasmoid
 sudo git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
