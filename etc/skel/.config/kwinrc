@@ -137,5 +137,5 @@ ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__dot
+library=com.github.zzag.material
+theme=Material
