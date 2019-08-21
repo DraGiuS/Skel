@@ -69,6 +69,13 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
+enforcedecoEnabled=true
+highlightwindowEnabled=true
+minimizeallEnabled=false
+quarter-tilingEnabled=true
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
+windowgeometryEnabled=false
 highlightwindowEnabled=true
 windowgeometryEnabled=false
 
