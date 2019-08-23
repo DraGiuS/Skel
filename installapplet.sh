@@ -38,6 +38,7 @@ sudo git clone https://github.com/marioortizmanero/spotify-music-videos
 cd spotify-music-videos
 sudo python ./setup.py install
 python ./setup.py install --user
+
 # Window style
 
 cd /root/arch_installer/
