@@ -46,6 +46,7 @@ sudo git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 
 # Spicetify 
+
 sudo chmod 777 /opt/spotify -R
 spicetify
 spicetify backup apply enable-devtool
