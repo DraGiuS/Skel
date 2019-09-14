@@ -65,7 +65,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][23][Configuration][Appearance]
 fontFamily=Raleway
@@ -124,7 +124,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=52
+PreloadWeight=0
 SystrayContainmentId=39
 
 [Containments][2][Applets][51][Configuration][General]
@@ -181,7 +181,7 @@ immutability=1
 plugin=org.kde.plasma.uswitcher
 
 [Containments][2][Applets][64][Configuration]
-PreloadWeight=12
+PreloadWeight=10
 
 [Containments][2][Applets][64][Configuration][ConfigDialog]
 DialogHeight=540
@@ -201,43 +201,18 @@ plugin=gr.ictpro.jsalatas.plasma.pstate
 PreloadWeight=0
 
 [Containments][2][Applets][65][Configuration][ConfigDialog]
-DialogHeight=540
+DialogHeight=539
 DialogWidth=720
 
 [Containments][2][Applets][66][Configuration][General]
 length=107
-
-[Containments][2][Applets][71]
-immutability=1
-plugin=com.github.zren.tiledmenu
-
-[Containments][2][Applets][71][Configuration]
-PreloadWeight=92
-
-[Containments][2][Applets][71][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][71][Configuration][General]
-defaultTileColor=#00000000
-popupHeight=619
-searchFieldFollowsTheme=true
-tileMargin=7
-tileModel=W3sieCI6MCwieSI6MCwidyI6NiwiaCI6MSwidXJsIjoiIiwidGlsZVR5cGUiOiJncm91cCIsImxhYmVsIjoiR3JvdXAiLCJzaG93TGFiZWwiOmZhbHNlfSx7IngiOjAsInkiOjAsInciOjIsImgiOjIsInVybCI6Im9yZy5rZGUuZG9scGhpbi5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjoyLCJ5IjowLCJ3IjoyLCJoIjoyLCJ1cmwiOiJvcmcua2RlLmtvbnNvbGUuZGVza3RvcCIsInNob3dMYWJlbCI6ZmFsc2V9LHsieCI6NCwieSI6MCwidyI6MiwiaCI6MiwidXJsIjoidmlydHVhbGJveC5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjowLCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJwYW1hYy1tYW5hZ2VyLmRlc2t0b3AiLCJzaG93TGFiZWwiOmZhbHNlfSx7IngiOjAsInkiOjQsInciOjIsImgiOjIsInVybCI6ImJsZW5kZXItMi44LmRlc2t0b3AiLCJzaG93TGFiZWwiOmZhbHNlfSx7IngiOjIsInkiOjQsInciOjIsImgiOjIsInVybCI6ImNvbS5ibGFja21hZ2ljZGVzaWduLnJlc29sdmUuZGVza3RvcCIsInNob3dMYWJlbCI6ZmFsc2V9LHsieCI6NCwieSI6NCwidyI6MiwiaCI6MiwidXJsIjoiZGVlemxvYWRlci1yZW1peC5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjowLCJ5Ijo2LCJ3IjoyLCJoIjoyLCJ1cmwiOiJkZXZodWIuZGVza3RvcCIsInNob3dMYWJlbCI6ZmFsc2V9LHsieCI6NCwieSI6NiwidyI6MiwiaCI6MiwidXJsIjoiZGlzY29yZC5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjoyLCJ5Ijo2LCJ3IjoyLCJoIjoyLCJ1cmwiOiJnaXRodWItZGVza3RvcC5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4Ijo0LCJ5IjoyLCJ3IjoyLCJoIjoyLCJ1cmwiOiJldmVsYXVuY2hlci5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjozLCJ5Ijo4LCJ3IjoyLCJoIjoyLCJ1cmwiOiJuZXQubHV0cmlzLkx1dHJpcy5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjoxLCJ5Ijo4LCJ3IjoyLCJoIjoyLCJ1cmwiOiJzcG90aWZ5LmRlc2t0b3AiLCJzaG93TGFiZWwiOmZhbHNlfSx7IngiOjIsInkiOjIsInciOjIsImgiOjIsInVybCI6InN0cmVhbWxpbmstdHdpdGNoLWd1aS5kZXNrdG9wIiwic2hvd0xhYmVsIjpmYWxzZX0seyJ4IjoyLCJ5Ijo0LCJ3IjoyLCJoIjoyLCJ1cmwiOiJmaXJlZm94LmRlc2t0b3AiLCJzaG93TGFiZWwiOmZhbHNlfV0=
-
-[Containments][2][Applets][71][Shortcuts]
-global=Meta+Return
-
-[Containments][2][Applets][82]
-immutability=1
-plugin=org.kde.redshiftControl
 
 [Containments][2][Applets][75]
 immutability=1
 plugin=org.kde.plasma.virtualdesktopbar
 
 [Containments][2][Applets][75][Configuration]
-PreloadWeight=92
+PreloadWeight=0
 
 [Containments][2][Applets][75][Configuration][ConfigDialog]
 DialogHeight=540
@@ -252,6 +227,23 @@ length=20
 [Containments][2][Applets][8][Configuration][Appearance]
 showDate=true
 
+[Containments][2][Applets][82]
+immutability=1
+plugin=org.kde.redshiftControl
+
+[Containments][2][Applets][82][Configuration]
+PreloadWeight=0
+
+[Containments][2][Applets][84]
+immutability=1
+plugin=org.kde.plasma.navdexie
+
+[Containments][2][Applets][84][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][84][Shortcuts]
+global=Meta+Return
+
 [Containments][2][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
@@ -260,7 +252,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=71;75;57;59;63;21;31;38;82;65;23;64
+AppletOrder=84;75;57;59;63;21;31;38;82;65;23;64
 
 [Containments][39]
 activityId=
@@ -338,7 +330,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][39][Applets][49][Configuration]
-PreloadWeight=6
+PreloadWeight=0
 
 [Containments][39][Applets][49][Configuration][ConfigDialog]
 DialogHeight=540
@@ -380,8 +372,8 @@ knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.device
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
 
-[Containments][72]
-activityId=d8025e8c-ed78-4111-9697-df7598da1680
+[Containments][83]
+activityId=9130cd37-42d1-4c11-80c0-19094764ce34
 formfactor=0
 immutability=1
 lastScreen=0
@@ -389,27 +381,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][72][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][83][ConfigDialog]
+DialogHeight=590
+DialogWidth=718
 
-[Containments][72][Configuration]
-PreloadWeight=34
+[Containments][83][Configuration]
+PreloadWeight=0
 
-[Containments][72][Wallpaper][org.kde.image][General]
-Image=file:///home/yosh/Téléchargements/artist_waves_colorful_129158_1920x1080.jpg
-
-[Containments][73]
-activityId=d8025e8c-ed78-4111-9697-df7598da1680
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][73][Configuration]
-PreloadWeight=34
+[Containments][83][Wallpaper][org.kde.image][General]
+Image=file:///home/Walls/kde.png
 
 [Containments62Appletsts][52][Configuration][General]
 showName=false
