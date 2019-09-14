@@ -1,5 +1,6 @@
 # Kde applets
 
+plasmapkg2 -i org.kde.plasma.navdexie.plasmoid
 plasmapkg2 -i uswitch-v1-2-2.plasmoid
 cd /root/arch_installer/Skel/kwin-quarter-tiling
 bash ./install.sh
