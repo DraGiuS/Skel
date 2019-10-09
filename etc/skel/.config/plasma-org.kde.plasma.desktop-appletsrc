@@ -65,7 +65,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][23][Configuration]
-PreloadWeight=5
+PreloadWeight=1
 
 [Containments][2][Applets][23][Configuration][Appearance]
 fontFamily=Raleway
@@ -124,7 +124,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=0
+PreloadWeight=9
 SystrayContainmentId=39
 
 [Containments][2][Applets][51][Configuration][General]
@@ -181,7 +181,7 @@ immutability=1
 plugin=org.kde.plasma.uswitcher
 
 [Containments][2][Applets][64][Configuration]
-PreloadWeight=10
+PreloadWeight=1
 
 [Containments][2][Applets][64][Configuration][ConfigDialog]
 DialogHeight=540
@@ -234,25 +234,25 @@ plugin=org.kde.redshiftControl
 [Containments][2][Applets][82][Configuration]
 PreloadWeight=0
 
-[Containments][2][Applets][84]
+[Containments][2][Applets][92]
 immutability=1
-plugin=org.kde.plasma.navdexie
+plugin=org.kde.plasma.excalibur
 
-[Containments][2][Applets][84][Configuration][General]
+[Containments][2][Applets][92][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][92][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][84][Shortcuts]
-global=Meta+Return
-
 [Containments][2][ConfigDialog]
-DialogHeight=84
+DialogHeight=72
 DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=84;75;57;59;63;21;31;38;82;65;23;64
+AppletOrder=92;75;57;59;63;21;31;38;82;65;23;64
 
 [Containments][39]
 activityId=
@@ -373,6 +373,7 @@ extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.device
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
 
 [Containments][83]
+ItemGeometriesHorizontal=
 activityId=9130cd37-42d1-4c11-80c0-19094764ce34
 formfactor=0
 immutability=1
@@ -389,7 +390,7 @@ DialogWidth=718
 PreloadWeight=0
 
 [Containments][83][Wallpaper][org.kde.image][General]
-Image=file:///home/Walls/kde.png
+Image=file:///home/yosh/Téléchargements/wallhaven-q6owpl.jpg
 
 [Containments62Appletsts][52][Configuration][General]
 showName=false
