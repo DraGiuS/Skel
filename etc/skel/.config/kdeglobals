@@ -114,7 +114,12 @@ XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
 dbfile=/home/yosh/.mozilla/firefox/piyuwffx.default/places.sqlite
+fixed=Hack,9,-1,5,50,0,0,0,0,0
+font=Lexend Deca,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=heritage
 
 [Icons]
