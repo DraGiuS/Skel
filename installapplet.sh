@@ -23,14 +23,6 @@ git clone https://github.com/psifidotos/applet-window-title/
 cd applet-window-title
 plasmapkg2 -i .
 
-# Spotify-music-videos
-
-cd 
-git clone https://github.com/marioortizmanero/spotify-music-videos
-cd spotify-music-videos
-sudo python ./setup.py install
-python ./setup.py install --user
-
 # Spleeter
 
 pip install spleeter
