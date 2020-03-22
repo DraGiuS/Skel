@@ -31,6 +31,10 @@ cd spotify-music-videos
 sudo python ./setup.py install
 python ./setup.py install --user
 
+# Spleeter
+
+pip install spleeter
+
 # Window style
 
 cd 
