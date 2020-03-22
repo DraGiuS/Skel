@@ -207,32 +207,11 @@ DialogWidth=720
 [Containments][2][Applets][66][Configuration][General]
 length=107
 
-[Containments][2][Applets][75]
-immutability=1
-plugin=org.kde.plasma.virtualdesktopbar
-
-[Containments][2][Applets][75][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][75][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][75][Configuration][General]
-showPlusButton=false
-
 [Containments][2][Applets][76][Configuration][General]
 length=20
 
 [Containments][2][Applets][8][Configuration][Appearance]
 showDate=true
-
-[Containments][2][Applets][82]
-immutability=1
-plugin=org.kde.redshiftControl
-
-[Containments][2][Applets][82][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][92]
 immutability=1
