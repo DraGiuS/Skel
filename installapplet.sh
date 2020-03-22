@@ -2,38 +2,39 @@
 
 plasmapkg2 -i org.kde.plasma.excalibur_p59+p511.plasmoid
 plasmapkg2 -i uswitch-v1-2-2.plasmoid
-sudo git clone https://github.com/ishovkun/mac-inline-battery
+cd
+git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
 kpackagetool5 -t Plasma/Applet --install .
-cd /root/arch_installer/
-sudo git clone https://github.com/psifidotos/latte-indicator-dashtopanel/
+cd 
+git clone https://github.com/psifidotos/latte-indicator-dashtopanel/
 cd latte-indicator-dashtopanel
 kpackagetool5 -i . -t Latte/Indicator
-cd /root/arch_installer/
-sudo git clone https://github.com/zren/plasma-applet-tiledmenu
+cd 
+git clone https://github.com/zren/plasma-applet-tiledmenu
 cd plasma-applet-tiledmenu
 kpackagetool5 -t Plasma/Applet -i package
-cd /root/arch_installer/
-sudo git clone https://github.com/jsalatas/plasma-pstate
+cd
+git clone https://github.com/jsalatas/plasma-pstate
 cd plasma-pstate
 sudo ./install.sh
-cd /root/arch_installer/
+cd 
 git clone https://github.com/psifidotos/applet-window-title/
 cd applet-window-title
 plasmapkg2 -i .
 
 # Spotify-music-videos
 
-cd /root/arch_installer/
-sudo git clone https://github.com/marioortizmanero/spotify-music-videos
+cd 
+git clone https://github.com/marioortizmanero/spotify-music-videos
 cd spotify-music-videos
 sudo python ./setup.py install
 python ./setup.py install --user
 
 # Window style
 
-cd /root/arch_installer/
-sudo git clone https://github.com/yagomont/material-decoration-bt.git
+cd 
+git clone https://github.com/yagomont/material-decoration-bt.git
 cd material-decoration-bt; bash setup.sh
 
 # Spicetify 
@@ -49,8 +50,6 @@ spicetify update
 
 # Install vscode configs
 
-cd /root/arch_installer/Skel/
+cd
+cd Skel/
 bash ./vscode_setup.sh 
-
-
-
