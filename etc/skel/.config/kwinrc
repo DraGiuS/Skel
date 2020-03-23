@@ -4,18 +4,16 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=c05e1487-a3a0-4f39-bcc9-35f415bdcfc5
-Id_2=2b8f8fb1-7c6d-4937-9b6b-f26797e662cf
-Id_3=cdb0c6a4-8888-43b4-98db-350d16228775
-Id_4=004a1500-420b-46c3-96db-8e8469947070
-Id_5=ec08569d-0ba5-4e21-a59c-4a6daa184903
-Id_6=aa7e1c2d-b43b-40ca-9e2d-8c5c887a3b9b
+Id_2=cdb0c6a4-8888-43b4-98db-350d16228775
+Id_3=004a1500-420b-46c3-96db-8e8469947070
+Id_4=ec08569d-0ba5-4e21-a59c-4a6daa184903
+Id_5=aa7e1c2d-b43b-40ca-9e2d-8c5c887a3b9b
 Name_1=
-Name_2=
-Name_3=
-Name_4=
-Name_5=
-Name_6=
-Number=6
+Name_2=
+Name_3=
+Name_4=
+Name_5=
+Number=5
 Rows=1
 
 [Effect-CoverSwitch]
