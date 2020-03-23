@@ -33,9 +33,3 @@ git clone https://github.com/khanhas/google-spicetify
 spicetify config current_theme google-spicetify
 spicetify config current_theme google-spicetify; spicetify config color_scheme gow; spicetify apply
 spicetify update
-
-# Install vscode configs
-
-cd
-cd Skel/
-bash ./vscode_setup.sh 
