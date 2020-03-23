@@ -26,10 +26,3 @@ plasmapkg2 -i .
 # Spicetify 
 
 sudo chmod 777 /opt/spotify -R
-spicetify
-spicetify backup apply enable-devtool
-cd "$(dirname "$(spicetify -c)")/Themes"
-git clone https://github.com/khanhas/google-spicetify
-spicetify config current_theme google-spicetify
-spicetify config current_theme google-spicetify; spicetify config color_scheme gow; spicetify apply
-spicetify update
