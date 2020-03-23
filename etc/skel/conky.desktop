@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=conky
-Exec=sh -c 'conky -c ~/.conky/spoclo/spotify-top/spoclo_rightedge.conky --daemonize --pause=10 & latte-dock & numlockx'
+Exec=sh -c 'conky -c ~/.conky/spoclo/spotify-top/spoclo_rightedge.conky --daemonize --pause=5 & latte-dock & numlockx'
 StartupNotify=false
 Terminal=false
