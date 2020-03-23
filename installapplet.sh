@@ -26,3 +26,5 @@ plasmapkg2 -i .
 # Spicetify 
 
 sudo chmod 777 /opt/spotify -R
+spicetify config extensions enableFullscreen.js
+spicetify apply
