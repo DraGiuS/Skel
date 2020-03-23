@@ -9,7 +9,7 @@ extension_general="ms-vscode.cpptools  kevinkyang.auto-comment-blocks CoenraadS.
 msjsdiag.debugger-for-chrome eamodio.gitlens donjayamanne.githistory huizhou.githd webfreak.debug  \
 wayou.vscode-todo-highlight emilast.logfilehighlighter Tyriar.sort-lines Gimly81.matlab \
 timonwong.shellcheck tomoki1207.pdf oderwat.indent-rainbow rashwell.tcl \
-vector-of-bool.cmake-tools twxs.cmake eugenwiens.bitbake redhat.vscode-yaml "
+twxs.cmake eugenwiens.bitbake redhat.vscode-yaml "
 
 extension_theme=" zhuangtongfa.material-theme monokai.theme-monokai-pro-vscode "
 
