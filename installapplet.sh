@@ -23,16 +23,6 @@ git clone https://github.com/psifidotos/applet-window-title/
 cd applet-window-title
 plasmapkg2 -i .
 
-# Spleeter
-
-pip install spleeter
-
-# Window style
-
-cd 
-git clone https://github.com/yagomont/material-decoration-bt.git
-cd material-decoration-bt; bash setup.sh
-
 # Spicetify 
 
 sudo chmod 777 /opt/spotify -R
