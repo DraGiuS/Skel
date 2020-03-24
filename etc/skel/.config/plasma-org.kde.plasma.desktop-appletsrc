@@ -65,7 +65,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][23][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][2][Applets][23][Configuration][Appearance]
 fontFamily=Raleway
@@ -124,7 +124,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=64
+PreloadWeight=100
 SystrayContainmentId=39
 
 [Containments][2][Applets][51][Configuration][General]
@@ -181,7 +181,7 @@ immutability=1
 plugin=org.kde.plasma.uswitcher
 
 [Containments][2][Applets][64][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][2][Applets][64][Configuration][ConfigDialog]
 DialogHeight=540
@@ -231,14 +231,14 @@ favoritesPortedToKAstats=true
 global=Meta+Return
 
 [Containments][2][ConfigDialog]
-DialogHeight=72
+DialogHeight=67
 DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=92;75;57;59;63;21;31;38;82;65;23;64
+AppletOrder=92;57;59;63;21;31;38;65;23;64
 
 [Containments][39]
 activityId=
@@ -254,7 +254,7 @@ immutability=1
 plugin=org.kde.plasma.volumewin7mixer
 
 [Containments][39][Applets][40][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][39][Applets][40][Configuration][Applet]
 showVisualFeedback=false
@@ -271,7 +271,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][39][Applets][42][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][39][Applets][43]
 immutability=1
@@ -285,7 +285,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][39][Applets][44][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][39][Applets][45]
 immutability=1
@@ -327,7 +327,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][39][Applets][50][Configuration]
-PreloadWeight=35
+PreloadWeight=76
 
 [Containments][39][Applets][55]
 immutability=1
@@ -336,31 +336,26 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][39][Applets][55][Configuration]
 PreloadWeight=0
 
-[Containments][39][Applets][56]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
 [Containments][39][Applets][56][Configuration]
-PreloadWeight=10
+PreloadWeight=42
 
 [Containments][39][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=420
+DialogWidth=560
 
 [Containments][39][Configuration]
 PreloadWeight=0
 
 [Containments][39][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.kdeconnect,org.kde.plasma.volumewin7mixer,org.kde.plasma.keyboardindicator
 
 [Containments][7][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.kdeconnect
 
-[Containments][83]
-ItemGeometriesHorizontal=
-activityId=9130cd37-42d1-4c11-80c0-19094764ce34
+[Containments][93]
+activityId=572316bd-f7cc-4090-8998-a86de726dd9d
 formfactor=0
 immutability=1
 lastScreen=0
@@ -368,15 +363,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][83][ConfigDialog]
-DialogHeight=590
-DialogWidth=718
+[Containments][93][ConfigDialog]
+DialogHeight=1022
+DialogWidth=1920
 
-[Containments][83][Configuration]
-PreloadWeight=0
+[Containments][93][Configuration]
+PreloadWeight=18
 
-[Containments][83][Wallpaper][org.kde.image][General]
-Image=file:///home/yosh/Téléchargements/wallhaven-r2e391.png
+[Containments][93][Wallpaper][org.kde.image][General]
+Image=file:///home/Walls/wallhaven-r2e391.png
 
 [Containments62Appletsts][52][Configuration][General]
 showName=false
