@@ -120,7 +120,7 @@ menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
-widgetStyle=heritage
+widgetStyle=layan
 
 [Icons]
 Theme=TurkinOS
@@ -136,7 +136,7 @@ StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 contrast=4
-widgetStyle=breeze
+widgetStyle=layan
 
 [KFileDialog Settings]
 Automatically select filename extension=true
