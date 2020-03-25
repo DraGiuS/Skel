@@ -73,8 +73,6 @@ minimizeallEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 windowgeometryEnabled=false
-highlightwindowEnabled=true
-windowgeometryEnabled=false
 
 [TabBox]
 ActivitiesMode=1
@@ -137,6 +135,7 @@ WindowSnapZone=10
 
 [org.kde.kdecoration2]
 BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
