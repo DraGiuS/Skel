@@ -60,7 +60,7 @@ conky.config = {
 };
 
 conky.text = [[
-${alignr}${voffset 0}${font Raleway:size=22}${time %A}${font}${voffset 0}
+${alignr}${voffset 0}${font Raleway:size=24}${time %A}${font}${voffset 0}
 ${alignr}${voffset 5}${font Raleway:size=26}${time %B} ${time %e}${font}${voffset -5}
 ${alignr}${voffset -20}${font Noto Sans:size=95}${time %p}${font}${voffset 20}
 ${if_running spotify}\
