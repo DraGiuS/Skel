@@ -38,6 +38,10 @@ git clone https://github.com/psifidotos/applet-window-title/
 cd applet-window-title
 plasmapkg2 -i .
 
+# Android licence
+
+ curl https://gist.githubusercontent.com/noamtamim/b04ef67239d2b43638aa5a9a024a1937/raw/56f1a38dd88a3774b71a063822444f3961d61873/android-sdk-license.sh | sh
+  
 # Spicetify 
 
 sudo chmod 777 /opt/spotify -R
