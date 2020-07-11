@@ -47,3 +47,8 @@ plasmapkg2 -i .
 sudo chmod 777 /opt/spotify -R
 spicetify config extensions enableFullscreen.js
 spicetify apply
+
+# Git
+
+git config --global user.email "christophe.ribots@gmails.com"
+git config --global user.name "Yosh"          
