@@ -52,3 +52,7 @@ spicetify apply
 
 git config --global user.email "christophe.ribots@gmails.com"
 git config --global user.name "Yosh"          
+
+# Firefox Blurred
+
+echo "once firefox is runned, launch the install.sh script"
