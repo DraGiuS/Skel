@@ -16,7 +16,7 @@
 
 cd skel
 plasmapkg2 -i org.kde.plasma.excalibur_p59+p511.plasmoid
-plasmapkg2 -i uswitch-v1-2-2.plasmoid
+plasmapkg2 -i uswitch-v1-3-0.plasmoid
 cd
 git clone https://github.com/ishovkun/mac-inline-battery
 cd mac-inline-battery
